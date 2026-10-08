@@ -1,0 +1,79 @@
+- generic [ref=f24e4]:
+  - complementary [ref=f24e5]:
+    - generic [ref=f24e6]:
+      - generic [ref=f24e7]: Trading Dashboard
+      - menu [ref=f24e9]:
+        - menuitem [ref=f24e10] [cursor=pointer]:
+          - img "line-chart" [ref=f24e11]
+          - link "Dashboard" [ref=f24e15]:
+            - /url: /dashboard
+        - menuitem [ref=f24e16] [cursor=pointer]:
+          - img "form" [ref=f24e17]
+          - link "Data Entry" [ref=f24e22]:
+            - /url: /data-entry
+  - main [ref=f24e23]:
+    - generic [ref=f24e30]:
+      - generic [ref=f24e31]:
+        - generic [ref=f24e32]:
+          - heading "Overview" [level=1] [ref=f24e33]
+          - paragraph [ref=f24e34]: Trading objectives and account status
+        - button "reload Refresh" [ref=f24e35] [cursor=pointer]:
+          - img "reload" [ref=f24e36]
+          - generic [ref=f24e39]: Refresh
+      - generic [ref=f24e40]:
+        - generic [ref=f24e41]:
+          - generic [ref=f24e42]:
+            - generic [ref=f24e45]:
+              - generic [ref=f24e46]: Profit target
+              - generic [ref=f24e47]: $1,250.00
+              - generic [ref=f24e48]: 0.00%
+              - generic [ref=f24e81]: "Result: -$4,750.16"
+            - generic [ref=f24e84]:
+              - generic [ref=f24e85]: Min trading days
+              - generic [ref=f24e86]: 5 Days
+              - generic [ref=f24e87]:
+                - img "check" [ref=f24e89]
+                - img "check" [ref=f24e93]
+                - img "check" [ref=f24e97]
+              - generic [ref=f24e102]:
+                - text: "Result:"
+                - generic [ref=f24e103]: 3 Days
+            - generic [ref=f24e106]:
+              - generic [ref=f24e107]: Daily loss limit
+              - generic [ref=f24e108]: $750.00
+              - generic [ref=f24e141]: "Remaining: $750.00"
+            - generic [ref=f24e144]:
+              - generic [ref=f24e145]: Max loss limit
+              - generic [ref=f24e146]: $1,500.00
+              - generic [ref=f24e179]: "Remaining: -$3,250.16"
+          - generic [ref=f24e180]:
+            - generic [ref=f24e182]:
+              - generic [ref=f24e183]: Account Status
+              - generic [ref=f24e186] [cursor=pointer]:
+                - combobox [ref=f24e188]
+                - generic "7 Days" [ref=f24e189]
+            - img [ref=f24e193]:
+              - generic [ref=f24e196]:
+                - generic "15250" [ref=f24e197]
+                - generic "15200" [ref=f24e198]
+                - generic "15150" [ref=f24e199]
+                - generic "15100" [ref=f24e200]
+                - generic "15050" [ref=f24e201]
+                - generic "15000" [ref=f24e202]
+              - generic [ref=f24e210]:
+                - generic "2026-10-05" [ref=f24e211]
+                - generic "2026-10-06" [ref=f24e212]
+                - generic "2026-10-07" [ref=f24e213]
+        - generic [ref=f24e216]:
+          - generic [ref=f24e217]:
+            - generic [ref=f24e218]: Current balance
+            - generic [ref=f24e219]: $15,249.84
+          - generic [ref=f24e220]:
+            - generic [ref=f24e221]: Initial balance
+            - generic [ref=f24e222]: $20,000.00
+          - generic [ref=f24e223]:
+            - generic [ref=f24e224]: Equity
+            - generic [ref=f24e225]: $15,249.84
+          - generic [ref=f24e226]:
+            - generic [ref=f24e227]: Profit/Loss
+            - generic [ref=f24e228]: "-$4,750.16"

@@ -1,0 +1,14 @@
+- generic [ref=f24e4]:
+  - complementary [ref=f24e5]:
+    - generic [ref=f24e6]:
+      - generic [ref=f24e7]: Trading Dashboard
+      - menu [ref=f24e9]:
+        - menuitem [ref=f24e10] [cursor=pointer]:
+          - img "line-chart" [ref=f24e11]
+          - link "Dashboard" [ref=f24e15]:
+            - /url: /dashboard
+        - menuitem [ref=f24e16] [cursor=pointer]:
+          - img "form" [ref=f24e17]
+          - link "Data Entry" [ref=f24e22]:
+            - /url: /data-entry
+  - main [ref=f24e23]

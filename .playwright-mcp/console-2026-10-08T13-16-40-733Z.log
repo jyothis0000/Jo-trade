@@ -1,0 +1,27 @@
+[     130ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211943
+[     494ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[     653ms] [ERROR] Warning: [antd: Tabs] Tabs.TabPane is deprecated. Please use `items` directly. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[   73378ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211943
+[   73478ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[   73590ms] [ERROR] Warning: [antd: Tabs] Tabs.TabPane is deprecated. Please use `items` directly. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  192768ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:202837:324874)
+[  192910ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Overflow (http://localhost:3000/static/js/vendors~main.chunk.js:146976:32)
+    at InheritableContextProvider (http://localhost:3000/static/js/vendors~main.chunk.js:144274:23)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:142867:27
+    at http://localhost:3000/static/js/vendors~main.chunk.js:81561:67
+    at Menu (http://localhost:3000/static/js/vendors~main.chunk.js:81668:94) @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  193054ms] [ERROR] Error: <svg> attribute width: Expected length, "NaN". @ http://localhost:3000/static/js/vendors~main.chunk.js:96723
+[  193054ms] [ERROR] Error: <foreignObject> attribute width: Expected length, "NaN". @ http://localhost:3000/static/js/vendors~main.chunk.js:96723
+[  193058ms] [ERROR] Error: <g> attribute transform: Expected number, "translate(NaN, 0) scale(1)". @ http://localhost:3000/static/js/vendors~main.chunk.js:111772
+[  193059ms] [ERROR] Error: <g> attribute transform: Expected number, "translate(NaN, 0) scale(1)". @ http://localhost:3000/static/js/vendors~main.chunk.js:111772

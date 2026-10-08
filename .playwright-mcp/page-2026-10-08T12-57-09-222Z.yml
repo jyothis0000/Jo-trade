@@ -1,0 +1,291 @@
+- generic [ref=f4e4]:
+  - complementary [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]: Muse Dashboard
+      - separator [ref=f4e8]
+      - menu [ref=f4e9]:
+        - menuitem [ref=f4e10] [cursor=pointer]:
+          - link "Dashboard" [ref=f4e12]:
+            - /url: /dashboard
+        - menuitem [ref=f4e19] [cursor=pointer]:
+          - link "Tables" [ref=f4e21]:
+            - /url: /tables
+        - menuitem [ref=f4e27] [cursor=pointer]:
+          - link "Billing" [ref=f4e29]:
+            - /url: /billing
+        - menuitem [ref=f4e35] [cursor=pointer]:
+          - link "RTL" [ref=f4e37]:
+            - /url: /rtl
+        - menuitem "Account Pages" [ref=f4e42] [cursor=pointer]
+        - menuitem [ref=f4e43] [cursor=pointer]:
+          - link "Profile" [ref=f4e45]:
+            - /url: /profile
+        - menuitem [ref=f4e50] [cursor=pointer]:
+          - link "Sign In" [ref=f4e52]:
+            - /url: /sign-in
+        - menuitem [ref=f4e57] [cursor=pointer]:
+          - link "Sign Up" [ref=f4e59]:
+            - /url: /sign-up
+      - generic [ref=f4e66]:
+        - heading "Need Help?" [level=6] [ref=f4e72]
+        - paragraph [ref=f4e73]: Please check our docs
+        - button "DOCUMENTATION" [ref=f4e74] [cursor=pointer]
+  - generic [ref=f4e76]:
+    - generic [ref=f4e77]:
+      - generic [ref=f4e78] [cursor=pointer]
+      - generic [ref=f4e81]:
+        - generic [ref=f4e82]:
+          - navigation [ref=f4e83]:
+            - list [ref=f4e84]:
+              - listitem [ref=f4e85]:
+                - link "Pages" [ref=f4e87] [cursor=pointer]:
+                  - /url: /
+                - text: /
+              - listitem [ref=f4e88]: dashboard
+          - generic [ref=f4e89]: dashboard
+        - generic [ref=f4e91]:
+          - generic [ref=f4e92]:
+            - link [ref=f4e93] [cursor=pointer]:
+              - /url: "#pablo"
+            - superscript [ref=f4e97]:
+              - generic [ref=f4e98]: "4"
+          - button [ref=f4e99] [cursor=pointer]
+          - link "Sign in" [ref=f4e102] [cursor=pointer]:
+            - /url: /sign-in
+          - generic [ref=f4e105]:
+            - img "search" [ref=f4e107]
+            - textbox "Type here..." [ref=f4e110]
+    - main [ref=f4e111]:
+      - generic [ref=f4e112]:
+        - generic [ref=f4e113]:
+          - generic [ref=f4e119]:
+            - text: Today’s Sales
+            - heading "$53,000 +30%" [level=3] [ref=f4e120]
+          - generic [ref=f4e132]:
+            - text: Today’s Users
+            - heading "3,200 +20%" [level=3] [ref=f4e133]
+          - generic [ref=f4e146]:
+            - text: New Clients
+            - heading "+1,200 -20%" [level=3] [ref=f4e147]
+          - generic [ref=f4e157]:
+            - text: New Orders
+            - heading "$13,200 10%" [level=3] [ref=f4e158]
+        - generic [ref=f4e163]:
+          - generic [ref=f4e166]:
+            - img [ref=f4e170]:
+              - generic [ref=f4e173]:
+                - generic "500" [ref=f4e174]
+                - generic "400" [ref=f4e175]
+                - generic "300" [ref=f4e176]
+                - generic "200" [ref=f4e177]
+                - generic "100" [ref=f4e178]
+                - generic "0" [ref=f4e179]
+              - generic [ref=f4e188]:
+                - generic "Feb" [ref=f4e189]
+                - generic "Mar" [ref=f4e190]
+                - generic "Apr" [ref=f4e191]
+                - generic "May" [ref=f4e192]
+                - generic "Jun" [ref=f4e193]
+                - generic "Jul" [ref=f4e194]
+                - generic "Aug" [ref=f4e195]
+                - generic "Sep" [ref=f4e196]
+                - generic "Oct" [ref=f4e197]
+            - generic [ref=f4e198]:
+              - heading "Active Users" [level=5] [ref=f4e199]
+              - generic [ref=f4e200]: than last week +30%
+              - generic [ref=f4e201]: We have created multiple options for you to put together and customise into pixel perfect pages.
+              - generic [ref=f4e202]:
+                - generic [ref=f4e204]:
+                  - heading "3,6K" [level=4] [ref=f4e205]
+                  - text: Users
+                - generic [ref=f4e207]:
+                  - heading "2m" [level=4] [ref=f4e208]
+                  - text: Clicks
+                - generic [ref=f4e210]:
+                  - heading "$772" [level=4] [ref=f4e211]
+                  - text: Sales
+                - generic [ref=f4e213]:
+                  - heading "82" [level=4] [ref=f4e214]
+                  - text: Items
+          - generic [ref=f4e217]:
+            - generic [ref=f4e218]:
+              - generic [ref=f4e219]:
+                - heading "Active Users" [level=5] [ref=f4e220]
+                - generic [ref=f4e221]: than last week +30%
+              - list [ref=f4e223]:
+                - listitem [ref=f4e224] [cursor=pointer]:
+                  - img "minus" [ref=f4e225]
+                  - text: Traffic
+                - listitem [ref=f4e228] [cursor=pointer]:
+                  - img "minus" [ref=f4e229]
+                  - text: Sales
+            - img [ref=f4e234]:
+              - generic [ref=f4e237]:
+                - generic "500" [ref=f4e238]
+                - generic "400" [ref=f4e239]
+                - generic "300" [ref=f4e240]
+                - generic "200" [ref=f4e241]
+                - generic "100" [ref=f4e242]
+                - generic "0" [ref=f4e243]
+              - generic [ref=f4e252]:
+                - generic "Feb" [ref=f4e253]
+                - generic "Mar" [ref=f4e254]
+                - generic "Apr" [ref=f4e255]
+                - generic "May" [ref=f4e256]
+                - generic "Jun" [ref=f4e257]
+                - generic "Jul" [ref=f4e258]
+                - generic "Aug" [ref=f4e259]
+                - generic "Sep" [ref=f4e260]
+                - generic "Oct" [ref=f4e261]
+        - generic [ref=f4e262]:
+          - generic [ref=f4e265]:
+            - generic [ref=f4e266]:
+              - generic [ref=f4e267]:
+                - heading "Projects" [level=5] [ref=f4e268]
+                - generic [ref=f4e269]: done this month40%
+              - generic [ref=f4e272]:
+                - generic [ref=f4e273] [cursor=pointer]:
+                  - generic [ref=f4e274]:
+                    - radio "ALL" [checked]
+                  - text: ALL
+                - generic [ref=f4e275] [cursor=pointer]:
+                  - generic [ref=f4e276]:
+                    - radio "ONLINE"
+                  - text: ONLINE
+                - generic [ref=f4e277] [cursor=pointer]:
+                  - generic [ref=f4e278]:
+                    - radio "STORES"
+                  - text: STORES
+            - table [ref=f4e280]:
+              - rowgroup [ref=f4e281]:
+                - row [ref=f4e282]:
+                  - columnheader "COMPANIES" [ref=f4e283]
+                  - columnheader "MEMBERS" [ref=f4e284]
+                  - columnheader "BUDGET" [ref=f4e285]
+                  - columnheader "COMPLETION" [ref=f4e286]
+              - rowgroup [ref=f4e287]:
+                - row [ref=f4e288]:
+                  - cell [ref=f4e289]:
+                    - heading "Soft UI Shopify Version" [level=6] [ref=f4e290]
+                  - cell [ref=f4e291]
+                  - cell "$14,000" [ref=f4e293]
+                  - cell [ref=f4e295]:
+                    - progressbar [ref=f4e297]:
+                      - generic "60%" [ref=f4e301]
+                - row [ref=f4e302]:
+                  - cell [ref=f4e303]:
+                    - heading "Progress Track" [level=6] [ref=f4e304]
+                  - cell [ref=f4e305]
+                  - cell "$3,000" [ref=f4e307]
+                  - cell [ref=f4e309]:
+                    - progressbar [ref=f4e311]:
+                      - generic "10%" [ref=f4e315]
+                - row [ref=f4e316]:
+                  - cell [ref=f4e317]:
+                    - heading "Fix Platform Errors" [level=6] [ref=f4e318]
+                  - cell [ref=f4e319]
+                  - cell "Not Set" [ref=f4e321]
+                  - cell [ref=f4e323]:
+                    - progressbar [ref=f4e325]:
+                      - generic "100%" [ref=f4e329]
+                - row [ref=f4e330]:
+                  - cell [ref=f4e331]:
+                    - heading "Launch new Mobile App" [level=6] [ref=f4e332]
+                  - cell [ref=f4e333]
+                  - cell "$20,600" [ref=f4e335]
+                  - cell [ref=f4e337]:
+                    - progressbar [ref=f4e339]:
+                      - generic "100%" [ref=f4e343]
+                - row [ref=f4e344]:
+                  - cell [ref=f4e345]:
+                    - heading "Add the New Landing Page" [level=6] [ref=f4e346]
+                  - cell [ref=f4e347]
+                  - cell "$4,000" [ref=f4e349]
+                  - cell [ref=f4e351]:
+                    - progressbar [ref=f4e353]:
+                      - generic "80%" [ref=f4e357]
+                - row [ref=f4e358]:
+                  - cell [ref=f4e359]:
+                    - heading "Redesign Online Store" [level=6] [ref=f4e360]
+                  - cell [ref=f4e361]
+                  - cell "$2,000" [ref=f4e363]
+                  - cell [ref=f4e365]:
+                    - progressbar [ref=f4e367]:
+                      - generic "Cancel" [ref=f4e371]
+            - button [ref=f4e375]:
+              - button "to-top Click to Upload" [ref=f4e376] [cursor=pointer]:
+                - img "to-top" [ref=f4e377]
+                - generic [ref=f4e380]: Click to Upload
+          - generic [ref=f4e384]:
+            - heading "Orders History" [level=5] [ref=f4e385]
+            - generic [ref=f4e386]: this month 20%
+            - list [ref=f4e387]:
+              - listitem [ref=f4e388]:
+                - generic [ref=f4e391]:
+                  - heading "$2,400 - Redesign store" [level=5] [ref=f4e392]
+                  - text: 09 JUN 7:20 PM
+              - listitem [ref=f4e393]:
+                - generic [ref=f4e396]:
+                  - 'heading "New order #3654323" [level=5] [ref=f4e397]'
+                  - text: 08 JUN 12:20 PM
+              - listitem [ref=f4e398]:
+                - generic [ref=f4e401]:
+                  - heading "Company server payments" [level=5] [ref=f4e402]
+                  - text: 04 JUN 3:10 PM
+              - listitem [ref=f4e403]:
+                - generic [ref=f4e406]:
+                  - 'heading "New card added for order #4826321" [level=5] [ref=f4e407]'
+                  - text: 02 JUN 2:45 PM
+              - listitem [ref=f4e408]:
+                - generic [ref=f4e411]:
+                  - heading "Unlock folders for development" [level=5] [ref=f4e412]
+                  - text: 18 MAY 1:30 PM
+              - listitem [ref=f4e413]:
+                - generic [ref=f4e416]:
+                  - 'heading "New order #46282344" [level=5] [ref=f4e417]'
+                  - text: 14 MAY 3:30 PM
+              - listitem [ref=f4e418]:
+                - img "loading" [ref=f4e420]
+                - generic [ref=f4e423]: Recording...
+            - button "menu-unfold REVERSE" [ref=f4e424] [cursor=pointer]:
+              - img "menu-unfold" [ref=f4e425]
+              - generic [ref=f4e428]: REVERSE
+        - generic [ref=f4e429]:
+          - generic [ref=f4e435]:
+            - generic [ref=f4e436]:
+              - text: Built by developers
+              - heading "Muse Dashboard for Ant Design" [level=5] [ref=f4e437]
+              - generic [ref=f4e438]: From colors, cards, typography to complex elements, you will find the full documentation.
+            - link [ref=f4e440] [cursor=pointer]:
+              - /url: "#pablo"
+              - text: Read More
+              - img "right" [ref=f4e441]
+          - generic [ref=f4e449]:
+            - generic [ref=f4e450]:
+              - heading "Work with the best" [level=5] [ref=f4e451]
+              - paragraph [ref=f4e452]: Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first.
+            - link [ref=f4e454] [cursor=pointer]:
+              - /url: "#pablo"
+              - text: Read More
+              - img "right" [ref=f4e455]
+    - generic [ref=f4e459]:
+      - generic [ref=f4e461]:
+        - text: © 2021, made with
+        - img "heart" [ref=f4e462]
+        - text: by
+        - link "Creative Tim" [ref=f4e465] [cursor=pointer]:
+          - /url: "#pablo"
+        - text: for a better web.
+      - list [ref=f4e468]:
+        - listitem [ref=f4e469]:
+          - link "Creative Tim" [ref=f4e470] [cursor=pointer]:
+            - /url: "#pablo"
+        - listitem [ref=f4e471]:
+          - link "About Us" [ref=f4e472] [cursor=pointer]:
+            - /url: "#pablo"
+        - listitem [ref=f4e473]:
+          - link "Blog" [ref=f4e474] [cursor=pointer]:
+            - /url: "#pablo"
+        - listitem [ref=f4e475]:
+          - link "License" [ref=f4e476] [cursor=pointer]:
+            - /url: "#pablo"

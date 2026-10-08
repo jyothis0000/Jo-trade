@@ -1,0 +1,149 @@
+[     299ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211943
+[     570ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[     597ms] [ERROR] Warning: [antd: Tabs] Tabs.TabPane is deprecated. Please use `items` directly. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  170617ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:202837:324874)
+[  170660ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at useAccount (http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:738:32)
+    at Home (http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:159:69)
+    at renderWithHooks (http://localhost:3000/static/js/vendors~main.chunk.js:191454:22)
+    at updateFunctionComponent (http://localhost:3000/static/js/vendors~main.chunk.js:193556:24)
+    at beginWork (http://localhost:3000/static/js/vendors~main.chunk.js:195002:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182031:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/vendors~main.chunk.js:182075:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182130:35)
+    at beginWork$1 (http://localhost:3000/static/js/vendors~main.chunk.js:199121:11)
+    at performUnitOfWork (http://localhost:3000/static/js/vendors~main.chunk.js:198132:16)
+    at workLoopSync (http://localhost:3000/static/js/vendors~main.chunk.js:198077:9)
+    at renderRootSync (http://localhost:3000/static/js/vendors~main.chunk.js:198047:11)
+    at performSyncWorkOnRoot (http://localhost:3000/static/js/vendors~main.chunk.js:197717:22)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:188411:30
+    at unstable_runWithPriority (http://localhost:3000/static/js/vendors~main.chunk.js:209722:16)
+    at runWithPriority$1 (http://localhost:3000/static/js/vendors~main.chunk.js:188365:14)
+    at flushSyncCallbackQueueImpl (http://localhost:3000/static/js/vendors~main.chunk.js:188407:13)
+    at flushSyncCallbackQueue (http://localhost:3000/static/js/vendors~main.chunk.js:188396:7)
+    at scheduleUpdateOnFiber (http://localhost:3000/static/js/vendors~main.chunk.js:197368:13)
+    at dispatchAction (http://localhost:3000/static/js/vendors~main.chunk.js:192429:9)
+    at http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:722:113
+[  170664ms] [ERROR] The above error occurred in the <Home> component:
+
+    at Home (http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:152:83)
+    at Route (http://localhost:3000/static/js/vendors~main.chunk.js:204365:29)
+    at Switch (http://localhost:3000/static/js/vendors~main.chunk.js:204534:29)
+    at main
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80137:25
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  170665ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Home (http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:152:83)
+    at Route (http://localhost:3000/static/js/vendors~main.chunk.js:204365:29)
+    at Switch (http://localhost:3000/static/js/vendors~main.chunk.js:204534:29)
+    at main
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80137:25
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35) @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  170668ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Overflow (http://localhost:3000/static/js/vendors~main.chunk.js:146976:32)
+    at InheritableContextProvider (http://localhost:3000/static/js/vendors~main.chunk.js:144274:23)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:142867:27
+    at http://localhost:3000/static/js/vendors~main.chunk.js:81561:67
+    at Menu (http://localhost:3000/static/js/vendors~main.chunk.js:81668:94)
+    at Sidenav
+    at div
+    at aside
+    at http://localhost:3000/static/js/vendors~main.chunk.js:79896:31
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35) @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  179961ms] [WARNING] src\pages\DataEntry.js
+  Line 1:21:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 76:23:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid @ http://localhost:3000/static/js/vendors~main.chunk.js:178340
+[  180302ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at useAccount (http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:738:32)
+    at Home (http://localhost:3000/main.84a4a26bc7262e383c0d.hot-update.js:982:69)
+    at renderWithHooks (http://localhost:3000/static/js/vendors~main.chunk.js:191454:22)
+    at updateFunctionComponent (http://localhost:3000/static/js/vendors~main.chunk.js:193556:24)
+    at beginWork (http://localhost:3000/static/js/vendors~main.chunk.js:195002:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182031:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/vendors~main.chunk.js:182075:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182130:35)
+    at beginWork$1 (http://localhost:3000/static/js/vendors~main.chunk.js:199121:11)
+    at performUnitOfWork (http://localhost:3000/static/js/vendors~main.chunk.js:198132:16)
+    at workLoopSync (http://localhost:3000/static/js/vendors~main.chunk.js:198077:9)
+    at renderRootSync (http://localhost:3000/static/js/vendors~main.chunk.js:198047:11)
+    at performSyncWorkOnRoot (http://localhost:3000/static/js/vendors~main.chunk.js:197717:22)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:188411:30
+    at unstable_runWithPriority (http://localhost:3000/static/js/vendors~main.chunk.js:209722:16)
+    at runWithPriority$1 (http://localhost:3000/static/js/vendors~main.chunk.js:188365:14)
+    at flushSyncCallbackQueueImpl (http://localhost:3000/static/js/vendors~main.chunk.js:188407:13)
+    at flushSyncCallbackQueue (http://localhost:3000/static/js/vendors~main.chunk.js:188396:7)
+    at scheduleUpdateOnFiber (http://localhost:3000/static/js/vendors~main.chunk.js:197368:13)
+    at dispatchAction (http://localhost:3000/static/js/vendors~main.chunk.js:192429:9)
+    at http://localhost:3000/main.4b7936170f29b8ae3fc4.hot-update.js:722:113
+[  180303ms] [ERROR] The above error occurred in the <Home> component:
+
+    at Home (http://localhost:3000/main.84a4a26bc7262e383c0d.hot-update.js:975:83)
+    at Route (http://localhost:3000/static/js/vendors~main.chunk.js:204365:29)
+    at Switch (http://localhost:3000/static/js/vendors~main.chunk.js:204534:29)
+    at main
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80137:25
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  183633ms] [INFO] The development server has disconnected.
+Refresh the page if necessary. @ http://localhost:3000/static/js/vendors~main.chunk.js:178288
+[  202095ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211943
+[  202212ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[  202248ms] [WARNING] src\pages\DataEntry.js
+  Line 1:21:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 76:23:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid @ http://localhost:3000/static/js/vendors~main.chunk.js:178340
+[  202261ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/account:0

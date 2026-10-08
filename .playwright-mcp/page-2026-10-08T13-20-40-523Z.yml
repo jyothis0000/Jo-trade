@@ -1,0 +1,118 @@
+- generic [ref=f25e4]:
+  - complementary [ref=f25e5]:
+    - generic [ref=f25e6]:
+      - generic [ref=f25e7]: Trading Dashboard
+      - menu [ref=f25e9]:
+        - menuitem [ref=f25e10] [cursor=pointer]:
+          - img "line-chart" [ref=f25e11]
+          - link "Dashboard" [ref=f25e15]:
+            - /url: /dashboard
+        - menuitem [ref=f25e16] [cursor=pointer]:
+          - img "form" [ref=f25e17]
+          - link "Data Entry" [ref=f25e22]:
+            - /url: /data-entry
+  - main [ref=f25e23]:
+    - generic [ref=f25e24]:
+      - generic [ref=f25e26]:
+        - heading "Data Entry" [level=1] [ref=f25e27]
+        - paragraph [ref=f25e28]: Set your account rules and log daily equity. The dashboard updates from this.
+      - generic [ref=f25e29]:
+        - generic [ref=f25e31]:
+          - generic [ref=f25e32]: Account rules
+          - generic [ref=f25e36]:
+            - generic [ref=f25e38]:
+              - generic "Initial balance ($)" [ref=f25e40]: "* Initial balance ($)"
+              - generic [ref=f25e44]:
+                - generic [ref=f25e45]:
+                  - button "Increase Value" [ref=f25e46] [cursor=pointer]:
+                    - img "up" [ref=f25e47]
+                  - button "Decrease Value" [ref=f25e50] [cursor=pointer]:
+                    - img "down" [ref=f25e51]
+                - spinbutton "* Initial balance ($)" [ref=f25e55]: "20000"
+            - generic [ref=f25e57]:
+              - generic "Profit target ($)" [ref=f25e59]: "* Profit target ($)"
+              - generic [ref=f25e63]:
+                - generic [ref=f25e64]:
+                  - button "Increase Value" [ref=f25e65] [cursor=pointer]:
+                    - img "up" [ref=f25e66]
+                  - button "Decrease Value" [ref=f25e69] [cursor=pointer]:
+                    - img "down" [ref=f25e70]
+                - spinbutton "* Profit target ($)" [ref=f25e74]: "1250"
+            - generic [ref=f25e76]:
+              - generic "Min trading days" [ref=f25e78]: "* Min trading days"
+              - generic [ref=f25e82]:
+                - generic [ref=f25e83]:
+                  - button "Increase Value" [ref=f25e84] [cursor=pointer]:
+                    - img "up" [ref=f25e85]
+                  - button "Decrease Value" [ref=f25e88] [cursor=pointer]:
+                    - img "down" [ref=f25e89]
+                - spinbutton "* Min trading days" [ref=f25e93]: "5"
+            - generic [ref=f25e95]:
+              - generic "Daily loss limit ($)" [ref=f25e97]: "* Daily loss limit ($)"
+              - generic [ref=f25e101]:
+                - generic [ref=f25e102]:
+                  - button "Increase Value" [ref=f25e103] [cursor=pointer]:
+                    - img "up" [ref=f25e104]
+                  - button "Decrease Value" [ref=f25e107] [cursor=pointer]:
+                    - img "down" [ref=f25e108]
+                - spinbutton "* Daily loss limit ($)" [ref=f25e112]: "750"
+            - generic [ref=f25e114]:
+              - generic "Max loss limit ($)" [ref=f25e116]: "* Max loss limit ($)"
+              - generic [ref=f25e120]:
+                - generic [ref=f25e121]:
+                  - button "Increase Value" [ref=f25e122] [cursor=pointer]:
+                    - img "up" [ref=f25e123]
+                  - button "Decrease Value" [ref=f25e126] [cursor=pointer]:
+                    - img "down" [ref=f25e127]
+                - spinbutton "* Max loss limit ($)" [ref=f25e131]: "1500"
+            - button "Save rules" [ref=f25e132] [cursor=pointer]
+        - generic [ref=f25e135]:
+          - generic [ref=f25e136]: Add daily entry
+          - generic [ref=f25e139]:
+            - generic [ref=f25e140]:
+              - generic [ref=f25e147]:
+                - textbox "Select date" [ref=f25e148]
+                - generic:
+                  - img "calendar"
+              - generic [ref=f25e154]:
+                - generic [ref=f25e155]:
+                  - button "Increase Value" [ref=f25e156] [cursor=pointer]:
+                    - img "up" [ref=f25e157]
+                  - button "Decrease Value" [ref=f25e160] [cursor=pointer]:
+                    - img "down" [ref=f25e161]
+                - spinbutton "Equity $" [ref=f25e165]
+              - generic [ref=f25e171]:
+                - generic [ref=f25e172]:
+                  - button "Increase Value" [ref=f25e173] [cursor=pointer]:
+                    - img "up" [ref=f25e174]
+                  - button "Decrease Value" [ref=f25e177] [cursor=pointer]:
+                    - img "down" [ref=f25e178]
+                - spinbutton "Daily loss $" [ref=f25e182]
+              - button "Save" [ref=f25e183] [cursor=pointer]
+            - heading "History (same date overwrites)" [level=5] [ref=f25e185]
+            - table [ref=f25e192]:
+              - rowgroup [ref=f25e194]:
+                - row [ref=f25e195]:
+                  - columnheader "Date" [ref=f25e196]
+                  - columnheader "Equity" [ref=f25e197]
+                  - columnheader "Daily loss" [ref=f25e198]
+                  - columnheader [ref=f25e199]
+              - rowgroup [ref=f25e200]:
+                - row [ref=f25e201]:
+                  - cell "2026-10-07" [ref=f25e202]
+                  - cell "15249.84" [ref=f25e203]
+                  - cell "0" [ref=f25e204]
+                  - cell [ref=f25e205]:
+                    - button "Delete" [ref=f25e206] [cursor=pointer]
+                - row [ref=f25e208]:
+                  - cell "2026-10-06" [ref=f25e209]
+                  - cell "15120" [ref=f25e210]
+                  - cell "0" [ref=f25e211]
+                  - cell [ref=f25e212]:
+                    - button "Delete" [ref=f25e213] [cursor=pointer]
+                - row [ref=f25e215]:
+                  - cell "2026-10-05" [ref=f25e216]
+                  - cell "15040" [ref=f25e217]
+                  - cell "0" [ref=f25e218]
+                  - cell [ref=f25e219]:
+                    - button "Delete" [ref=f25e220] [cursor=pointer]

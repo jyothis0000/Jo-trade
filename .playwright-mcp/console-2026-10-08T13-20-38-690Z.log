@@ -1,0 +1,57 @@
+[    1143ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[    1460ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[    8477ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:202798:324874)
+[   25602ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[   25693ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[   52755ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[   52847ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[  186968ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:202798:324874)
+[  195831ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/dashboard:0
+[  195847ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Overflow (http://localhost:3000/static/js/vendors~main.chunk.js:146937:32)
+    at InheritableContextProvider (http://localhost:3000/static/js/vendors~main.chunk.js:144235:23)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:142828:27
+    at http://localhost:3000/static/js/vendors~main.chunk.js:81561:67
+    at Menu (http://localhost:3000/static/js/vendors~main.chunk.js:81668:94)
+    at Sidenav (http://localhost:3000/static/js/main.chunk.js:453:75)
+    at div
+    at aside
+    at http://localhost:3000/static/js/vendors~main.chunk.js:79896:31
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:310:3)
+    at div
+    at App @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[  209442ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[  209817ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/dashboard:0
+[  209957ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[  210274ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/dashboard:0
+[  210590ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/login:0
+[  211461ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[  211484ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at PinGate (http://localhost:3000/static/js/main.chunk.js:339:3) @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[  235171ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[  235252ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274
+[  237419ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211904
+[  237511ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202274

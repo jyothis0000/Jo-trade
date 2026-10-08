@@ -1,0 +1,55 @@
+:root {
+  --bg: #0f1117;
+  --panel: #171a23;
+  --line: #232838;
+  --muted: #8b93a7;
+  --accent: #1890ff;
+}
+body { margin: 0; background: var(--bg); color: #e6e8ee; }
+.app-layout, .app-layout .ant-layout { background: var(--bg); min-height: 100vh; }
+
+/* sidebar */
+.app-sider.ant-layout-sider { background: var(--bg); border-right: 1px solid var(--line); }
+.app-sider .brand { display: flex; align-items: center; gap: 10px; height: 64px; padding: 0 24px; font-weight: 600; font-size: 16px; border-bottom: 1px solid var(--line); }
+.app-sider .brand img { height: 26px; filter: invert(1); }
+.app-sider .ant-menu { background: transparent; border: 0; padding: 12px 12px; }
+.app-sider .ant-menu-item { height: 42px; line-height: 42px; margin: 4px 0; border-radius: 8px; color: var(--muted); transition: background .2s, color .2s; }
+.app-sider .ant-menu-item:hover { background: #1b2030; color: #fff; }
+.app-sider .ant-menu-item a { color: inherit; }
+.app-sider .ant-menu-item-selected, .app-sider .ant-menu-item-selected:hover { background: #1f2740 !important; color: #fff; }
+.app-sider .ant-menu-item-selected .anticon { color: var(--accent); }
+.app-sider .ant-menu-item::after { display: none; }
+
+/* page */
+.page { padding: 28px 32px; max-width: 1400px; margin: 0 auto; }
+.page-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.page-head h1 { margin: 0; font-size: 24px; font-weight: 600; color: #fff; line-height: 1.2; }
+.page-head p { margin: 4px 0 0; color: var(--muted); }
+
+/* cards */
+.page .ant-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, transform .2s; }
+.page .ant-card-head { border-bottom: 1px solid var(--line); }
+.page .ant-card.hoverable:hover { border-color: #2f4a8a; transform: translateY(-2px); cursor: default; }
+.label { color: var(--muted); font-size: 13px; }
+.kpi { margin: 4px 0 18px; font-size: 24px; font-weight: 600; color: #fff; }
+.balance-box { text-align: center; padding: 20px 16px; margin-bottom: 8px; background: linear-gradient(135deg, #1a2547, #141a30); border: 1px solid #25305a; border-radius: 10px; }
+.balance-box .kpi { margin: 4px 0 0; font-size: 30px; }
+.stat-row { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.stat-row:last-child { border-bottom: 0; padding-bottom: 0; }
+.stat-row b { font-weight: 600; }
+.pos { color: #3ddc84; } .neg { color: #ff6b6b; }
+
+/* segmented bars + day pills */
+.segbar { display: flex; align-items: center; gap: 10px; height: 20px; }
+.segbar .segs { display: flex; gap: 2px; flex: 1; height: 100%; }
+.segbar .segs span { flex: 1; border-radius: 2px; background: #262b3b; }
+.pills { display: flex; gap: 6px; height: 20px; }
+.pills span { flex: 1; border-radius: 10px; background: #262b3b; color: #3ddc84; display: flex; align-items: center; justify-content: center; font-size: 11px; }
+.pills span.on { background: #12301f; }
+
+.apexcharts-text { fill: var(--muted); }
+@media (max-width: 768px) { .page { padding: 20px 16px; } }
+.label b { color: #fff; font-weight: 600; }
+.page .ant-table, .page .ant-table-tbody > tr > td, .page .ant-table-tbody > tr.ant-table-placeholder:hover > td { background: transparent; border-color: var(--line); }
+.page .ant-table-thead > tr > th { background: #1b2030; border-color: var(--line); }
+.page .ant-table-tbody > tr:hover > td { background: #1b2030; }

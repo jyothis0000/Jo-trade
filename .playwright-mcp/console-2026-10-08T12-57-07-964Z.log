@@ -1,0 +1,43 @@
+[     633ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:222663
+[     773ms] [ERROR] Warning: [antd: Drawer] `visible` is deprecated which will be removed in next major version, please use `open` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[     777ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[     793ms] [ERROR] Warning: [antd: Dropdown] `overlay` is deprecated. Please use `menu` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[   79911ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `SignIn`.  
+    at svg
+    at SignIn (http://localhost:3000/static/js/main.chunk.js:8855:1)
+    at Route (http://localhost:3000/static/js/vendors~main.chunk.js:214249:29)
+    at Switch (http://localhost:3000/static/js/vendors~main.chunk.js:214418:29)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:213921:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:213435:35) @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[   79936ms] [ERROR] Warning: [antd: Form.Item] A `Form.Item` with a `name` prop must have a single child element. For information on how to render more complex form items, see https://u.ant.design/complex-form-item. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[   79939ms] [ERROR] Warning: MenuItem should not leave undefined `key`. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[   80013ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Overflow (http://localhost:3000/static/js/vendors~main.chunk.js:154961:32)
+    at InheritableContextProvider (http://localhost:3000/static/js/vendors~main.chunk.js:151986:23)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:150579:27
+    at http://localhost:3000/static/js/vendors~main.chunk.js:85220:67
+    at Menu (http://localhost:3000/static/js/vendors~main.chunk.js:85327:94)
+    at Sidenav (http://localhost:3000/static/js/main.chunk.js:3054:3)
+    at div
+    at aside
+    at http://localhost:3000/static/js/vendors~main.chunk.js:83555:31
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:83809:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:83779:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:2778:3) @ http://localhost:3000/static/js/vendors~main.chunk.js:211960
+[  277085ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:212484:324874)
+[  295108ms] [ERROR] Warning: [antd: Tabs] Tabs.TabPane is deprecated. Please use `items` directly. @ http://localhost:3000/static/js/vendors~main.chunk.js:211960

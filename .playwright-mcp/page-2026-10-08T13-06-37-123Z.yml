@@ -1,0 +1,23 @@
+- generic [ref=f18e4]:
+  - complementary [ref=f18e5]:
+    - generic [ref=f18e6]:
+      - generic [ref=f18e7]: Trading Dashboard
+      - separator [ref=f18e8]
+      - menu [ref=f18e9]:
+        - menuitem [ref=f18e10] [cursor=pointer]:
+          - link "line-chart Dashboard" [ref=f18e12]:
+            - /url: /dashboard
+            - img "line-chart" [ref=f18e14]
+            - generic [ref=f18e17]: Dashboard
+        - menuitem [ref=f18e18] [cursor=pointer]:
+          - link "form Data Entry" [ref=f18e20]:
+            - /url: /data-entry
+            - img "form" [ref=f18e22]
+            - generic [ref=f18e26]: Data Entry
+  - main [ref=f18e28]:
+    - alert [ref=f18e30]:
+      - img "close-circle" [ref=f18e31]
+      - generic [ref=f18e34]:
+        - generic [ref=f18e35]: Request failed (500)
+        - link "Go to Data Entry to add your account rules and daily equity." [ref=f18e37] [cursor=pointer]:
+          - /url: /data-entry

@@ -1,0 +1,86 @@
+- generic [ref=f21e4]:
+  - complementary [ref=f21e5]:
+    - generic [ref=f21e6]:
+      - generic [ref=f21e7]: Trading Dashboard
+      - separator [ref=f21e8]
+      - menu [ref=f21e9]:
+        - menuitem [ref=f21e10] [cursor=pointer]:
+          - link "line-chart Dashboard" [ref=f21e12]:
+            - /url: /dashboard
+            - img "line-chart" [ref=f21e14]
+            - generic [ref=f21e17]: Dashboard
+        - menuitem [ref=f21e18] [cursor=pointer]:
+          - link "form Data Entry" [ref=f21e20]:
+            - /url: /data-entry
+            - img "form" [ref=f21e22]
+            - generic [ref=f21e26]: Data Entry
+  - main [ref=f21e28]:
+    - generic [ref=f21e36]:
+      - tablist [ref=f21e37]:
+        - generic [ref=f21e39]:
+          - tab "Overview" [selected] [ref=f21e41] [cursor=pointer]
+          - tab "Calendar" [disabled] [ref=f21e43]
+          - tab "History" [disabled] [ref=f21e45]
+      - tabpanel "Overview" [ref=f21e48]:
+        - generic [ref=f21e49]:
+          - generic [ref=f21e50]:
+            - generic [ref=f21e51]:
+              - generic [ref=f21e52]: Trading Objectives
+              - button "reload Refresh" [ref=f21e53] [cursor=pointer]:
+                - img "reload" [ref=f21e54]
+                - generic [ref=f21e57]: Refresh
+            - generic [ref=f21e58]:
+              - generic [ref=f21e61]:
+                - text: Profit target
+                - heading "$1,200.00" [level=3] [ref=f21e62]
+                - generic [ref=f21e63]: 20.82%
+                - generic [ref=f21e96]: "Result: $249.84"
+              - generic [ref=f21e99]:
+                - text: Min trading days
+                - heading "5 Days" [level=3] [ref=f21e100]
+                - generic [ref=f21e101]:
+                  - img "check" [ref=f21e103]
+                  - img "check" [ref=f21e107]
+                  - img "check" [ref=f21e111]
+                - generic [ref=f21e116]:
+                  - text: "Result:"
+                  - generic [ref=f21e117]: 3 Days
+              - generic [ref=f21e120]:
+                - text: Daily loss limit (-5%)
+                - heading "$750.00" [level=3] [ref=f21e121]
+                - generic [ref=f21e154]: "Remaining: $750.00"
+              - generic [ref=f21e157]:
+                - text: Max loss limit (-10%)
+                - heading "$1,500.00" [level=3] [ref=f21e158]
+                - generic [ref=f21e191]: "Remaining: $1,749.84"
+            - generic [ref=f21e193]:
+              - generic [ref=f21e194]:
+                - heading "Account Status" [level=4] [ref=f21e195]
+                - generic [ref=f21e197] [cursor=pointer]:
+                  - combobox [ref=f21e199]
+                  - generic "7 Days" [ref=f21e200]
+              - img [ref=f21e203]:
+                - generic [ref=f21e206]:
+                  - generic "15250" [ref=f21e207]
+                  - generic "15200" [ref=f21e208]
+                  - generic "15150" [ref=f21e209]
+                  - generic "15100" [ref=f21e210]
+                  - generic "15050" [ref=f21e211]
+                  - generic "15000" [ref=f21e212]
+                - generic [ref=f21e220]:
+                  - generic "2026-10-05" [ref=f21e221]
+                  - generic "2026-10-06" [ref=f21e222]
+                  - generic "2026-10-07" [ref=f21e223]
+          - generic [ref=f21e226]:
+            - generic [ref=f21e227]:
+              - text: Current balance
+              - heading "$15,249.84" [level=2] [ref=f21e228]
+            - generic [ref=f21e229]:
+              - generic [ref=f21e230]: Initial balance
+              - generic [ref=f21e231]: $15,000.00
+            - generic [ref=f21e232]:
+              - generic [ref=f21e233]: Equity
+              - generic [ref=f21e234]: $15,249.84
+            - generic [ref=f21e235]:
+              - generic [ref=f21e236]: Profit/Loss
+              - generic [ref=f21e237]: $249.84

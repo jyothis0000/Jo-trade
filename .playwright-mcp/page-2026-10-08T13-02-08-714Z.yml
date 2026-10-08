@@ -1,0 +1,91 @@
+- generic [ref=f6e4]:
+  - complementary [ref=f6e5]:
+    - generic [ref=f6e6]:
+      - generic [ref=f6e7]: Trading Dashboard
+      - separator [ref=f6e8]
+      - menu [ref=f6e9]:
+        - menuitem [ref=f6e10] [cursor=pointer]:
+          - img "line-chart" [ref=f6e11]
+          - link "Dashboard" [ref=f6e15]:
+            - /url: /dashboard
+  - main [ref=f6e17]:
+    - generic [ref=f6e19]:
+      - tablist [ref=f6e20]:
+        - generic [ref=f6e22]:
+          - tab "Overview" [selected] [ref=f6e24] [cursor=pointer]
+          - tab "Calendar" [disabled] [ref=f6e26]
+          - tab "History" [disabled] [ref=f6e28]
+      - tabpanel "Overview" [ref=f6e31]:
+        - generic [ref=f6e32]:
+          - generic [ref=f6e33]:
+            - generic [ref=f6e34]:
+              - generic [ref=f6e35]: Trading Objectives
+              - button "reload Refresh" [ref=f6e36] [cursor=pointer]:
+                - img "reload" [ref=f6e37]
+                - generic [ref=f6e40]: Refresh
+            - generic [ref=f6e41]:
+              - generic [ref=f6e44]:
+                - text: Profit target
+                - heading "$1,200.00" [level=3] [ref=f6e45]
+                - progressbar [ref=f6e46]:
+                  - generic "20.82%" [ref=f6e78]
+                - generic [ref=f6e79]: "Result: $249.84"
+              - generic [ref=f6e82]:
+                - text: Min trading days
+                - heading "5 Days" [level=3] [ref=f6e83]
+                - generic [ref=f6e84]:
+                  - img "check" [ref=f6e86]
+                  - img "check" [ref=f6e90]
+                  - img "check" [ref=f6e94]
+                - generic [ref=f6e99]:
+                  - text: "Result:"
+                  - generic [ref=f6e100]: 3 Days
+              - generic [ref=f6e103]:
+                - text: Daily loss limit (-5%)
+                - heading "$750.00" [level=3] [ref=f6e104]
+                - progressbar [ref=f6e105]
+                - generic [ref=f6e137]: "Remaining: $750.00"
+              - generic [ref=f6e140]:
+                - text: Max loss limit (-10%)
+                - heading "$1,500.00" [level=3] [ref=f6e141]
+                - progressbar [ref=f6e142]
+                - generic [ref=f6e174]: "Remaining: $1,749.84"
+            - generic [ref=f6e176]:
+              - generic [ref=f6e177]:
+                - heading "Account Status" [level=4] [ref=f6e178]
+                - generic [ref=f6e180] [cursor=pointer]:
+                  - combobox [ref=f6e182]
+                  - generic "7 Days" [ref=f6e183]
+              - img [ref=f6e186]:
+                - generic [ref=f6e189]:
+                  - generic "15250.00" [ref=f6e190]
+                  - generic "15200.00" [ref=f6e191]
+                  - generic "15150.00" [ref=f6e192]
+                  - generic "15100.00" [ref=f6e193]
+                  - generic "15050.00" [ref=f6e194]
+                  - generic "15000.00" [ref=f6e195]
+                  - generic "14950.00" [ref=f6e196]
+                - generic [ref=f6e204]:
+                  - generic "Day 1" [ref=f6e205]
+                  - generic "Day 2" [ref=f6e206]
+                  - generic "Day 3" [ref=f6e207]
+                  - generic "Day 4" [ref=f6e208]
+                  - generic "Day 5" [ref=f6e209]
+                  - generic "Day 6" [ref=f6e210]
+                  - generic "Day 7" [ref=f6e211]
+          - generic [ref=f6e214]:
+            - generic [ref=f6e215]:
+              - text: Current balance
+              - heading "$15,249.84" [level=2] [ref=f6e216]
+            - generic [ref=f6e217]:
+              - generic [ref=f6e218]: Initial balance
+              - generic [ref=f6e219]: $15,000.00
+            - generic [ref=f6e220]:
+              - generic [ref=f6e221]: Equity
+              - generic [ref=f6e222]: $15,249.84
+            - generic [ref=f6e223]:
+              - generic [ref=f6e224]: Profit/Loss
+              - generic [ref=f6e225]: $249.84
+            - generic [ref=f6e226]:
+              - generic [ref=f6e227]: Floating Profit/Loss
+              - generic [ref=f6e228]: $0.00

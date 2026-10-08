@@ -1,0 +1,37 @@
+[     554ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:203911
+[     612ms] ReferenceError: React is not defined
+    at ./node_modules/react-apexcharts/dist/react-apexcharts.iife.min.js (http://localhost:3000/static/js/vendors~main.chunk.js:168946:3)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:902:170)
+    at ./src/components/chart/EChart.js (http://localhost:3000/static/js/main.chunk.js:1117:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:4946:82)
+    at ./src/pages/Home.js (http://localhost:3000/static/js/main.chunk.js:6347:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:69:69)
+    at ./src/App.js (http://localhost:3000/static/js/main.chunk.js:276:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:3631:62)
+    at ./src/index.js (http://localhost:3000/static/js/main.chunk.js:3739:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at 1 (http://localhost:3000/static/js/main.chunk.js:11681:18)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at checkDeferredModules (http://localhost:3000/static/js/bundle.js:46:23)
+    at Array.webpackJsonpCallback [as push] (http://localhost:3000/static/js/bundle.js:33:19)
+    at http://localhost:3000/static/js/main.chunk.js:1:103
+[    1446ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:193732:324874)

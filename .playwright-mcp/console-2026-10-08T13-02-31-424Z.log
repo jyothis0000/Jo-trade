@@ -1,0 +1,118 @@
+[     683ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:3000/static/js/vendors~main.chunk.js:211943
+[     920ms] [ERROR] Warning: [antd: Menu] `children` will be removed in next major version. Please use `items` instead. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[     954ms] ReferenceError: Progress is not defined
+    at Home (http://localhost:3000/static/js/main.chunk.js:1132:109)
+    at renderWithHooks (http://localhost:3000/static/js/vendors~main.chunk.js:191454:22)
+    at mountIndeterminateComponent (http://localhost:3000/static/js/vendors~main.chunk.js:193937:17)
+    at beginWork (http://localhost:3000/static/js/vendors~main.chunk.js:194990:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182031:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/vendors~main.chunk.js:182075:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182130:35)
+    at beginWork$1 (http://localhost:3000/static/js/vendors~main.chunk.js:199121:11)
+    at performUnitOfWork (http://localhost:3000/static/js/vendors~main.chunk.js:198132:16)
+    at workLoopSync (http://localhost:3000/static/js/vendors~main.chunk.js:198077:9)
+    at renderRootSync (http://localhost:3000/static/js/vendors~main.chunk.js:198047:11)
+    at performSyncWorkOnRoot (http://localhost:3000/static/js/vendors~main.chunk.js:197717:22)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:188411:30
+    at unstable_runWithPriority (http://localhost:3000/static/js/vendors~main.chunk.js:209722:16)
+    at runWithPriority$1 (http://localhost:3000/static/js/vendors~main.chunk.js:188365:14)
+    at flushSyncCallbackQueueImpl (http://localhost:3000/static/js/vendors~main.chunk.js:188407:13)
+    at flushSyncCallbackQueue (http://localhost:3000/static/js/vendors~main.chunk.js:188396:7)
+    at unbatchedUpdates (http://localhost:3000/static/js/vendors~main.chunk.js:197844:11)
+    at legacyRenderSubtreeIntoContainer (http://localhost:3000/static/js/vendors~main.chunk.js:200871:9)
+    at Object.render (http://localhost:3000/static/js/vendors~main.chunk.js:200936:14)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:798:50)
+    at ./src/index.js (http://localhost:3000/static/js/main.chunk.js:883:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at 1 (http://localhost:3000/static/js/main.chunk.js:1526:18)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at checkDeferredModules (http://localhost:3000/static/js/bundle.js:46:23)
+    at Array.webpackJsonpCallback [as push] (http://localhost:3000/static/js/bundle.js:33:19)
+    at http://localhost:3000/static/js/main.chunk.js:1:103
+[     963ms] [ERROR] The above error occurred in the <Home> component:
+
+    at Home (http://localhost:3000/static/js/main.chunk.js:1046:83)
+    at Route (http://localhost:3000/static/js/vendors~main.chunk.js:204365:29)
+    at Switch (http://localhost:3000/static/js/vendors~main.chunk.js:204534:29)
+    at main
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80137:25
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[     968ms] ReferenceError: Progress is not defined
+    at Home (http://localhost:3000/static/js/main.chunk.js:1132:109)
+    at renderWithHooks (http://localhost:3000/static/js/vendors~main.chunk.js:191454:22)
+    at mountIndeterminateComponent (http://localhost:3000/static/js/vendors~main.chunk.js:193937:17)
+    at beginWork (http://localhost:3000/static/js/vendors~main.chunk.js:194990:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182031:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/vendors~main.chunk.js:182075:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/vendors~main.chunk.js:182130:35)
+    at beginWork$1 (http://localhost:3000/static/js/vendors~main.chunk.js:199121:11)
+    at performUnitOfWork (http://localhost:3000/static/js/vendors~main.chunk.js:198132:16)
+    at workLoopSync (http://localhost:3000/static/js/vendors~main.chunk.js:198077:9)
+    at renderRootSync (http://localhost:3000/static/js/vendors~main.chunk.js:198047:11)
+    at performSyncWorkOnRoot (http://localhost:3000/static/js/vendors~main.chunk.js:197717:22)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:188411:30
+    at unstable_runWithPriority (http://localhost:3000/static/js/vendors~main.chunk.js:209722:16)
+    at runWithPriority$1 (http://localhost:3000/static/js/vendors~main.chunk.js:188365:14)
+    at flushSyncCallbackQueueImpl (http://localhost:3000/static/js/vendors~main.chunk.js:188407:13)
+    at flushSyncCallbackQueue (http://localhost:3000/static/js/vendors~main.chunk.js:188396:7)
+    at unbatchedUpdates (http://localhost:3000/static/js/vendors~main.chunk.js:197844:11)
+    at legacyRenderSubtreeIntoContainer (http://localhost:3000/static/js/vendors~main.chunk.js:200871:9)
+    at Object.render (http://localhost:3000/static/js/vendors~main.chunk.js:200936:14)
+    at Module.<anonymous> (http://localhost:3000/static/js/main.chunk.js:798:50)
+    at ./src/index.js (http://localhost:3000/static/js/main.chunk.js:883:30)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at fn (http://localhost:3000/static/js/bundle.js:151:20)
+    at 1 (http://localhost:3000/static/js/main.chunk.js:1526:18)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:852:31)
+    at checkDeferredModules (http://localhost:3000/static/js/bundle.js:46:23)
+    at Array.webpackJsonpCallback [as push] (http://localhost:3000/static/js/bundle.js:33:19)
+    at http://localhost:3000/static/js/main.chunk.js:1:103
+[     993ms] [ERROR] Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s a useEffect cleanup function 
+    at Overflow (http://localhost:3000/static/js/vendors~main.chunk.js:146976:32)
+    at InheritableContextProvider (http://localhost:3000/static/js/vendors~main.chunk.js:144274:23)
+    at http://localhost:3000/static/js/vendors~main.chunk.js:142867:27
+    at http://localhost:3000/static/js/vendors~main.chunk.js:81561:67
+    at Menu (http://localhost:3000/static/js/vendors~main.chunk.js:81668:94)
+    at Sidenav
+    at div
+    at aside
+    at http://localhost:3000/static/js/vendors~main.chunk.js:79896:31
+    at section
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80150:76
+    at http://localhost:3000/static/js/vendors~main.chunk.js:80120:79
+    at Main (http://localhost:3000/static/js/main.chunk.js:472:3)
+    at div
+    at App
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:204037:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:203551:35) @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[    1318ms] ReferenceError: process is not defined
+    at 4043 (<anonymous>:2:13175)
+    at r (<anonymous>:2:306606)
+    at 8048 (<anonymous>:2:9504)
+    at r (<anonymous>:2:306606)
+    at 8641 (<anonymous>:2:1379)
+    at r (<anonymous>:2:306606)
+    at <anonymous>:2:315634
+    at <anonymous>:2:324254
+    at <anonymous>:2:324258
+    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:202837:324874)
+[    1318ms] [ERROR] src\pages\Home.js
+  Line 87:20:  'Progress' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
+[   14243ms] [ERROR] Warning: [antd: Tabs] Tabs.TabPane is deprecated. Please use `items` directly. @ http://localhost:3000/static/js/vendors~main.chunk.js:202313
