@@ -1,7 +1,7 @@
 - generic [ref=f4e4]:
   - complementary [ref=f4e5]:
     - generic [ref=f4e6]:
-      - generic [ref=f4e7]: Muse Dashboard
+      - generic [ref=f4e7]: JO Trade Dashboard
       - separator [ref=f4e8]
       - menu [ref=f4e9]:
         - menuitem [ref=f4e10] [cursor=pointer]:
@@ -254,7 +254,7 @@
           - generic [ref=f4e435]:
             - generic [ref=f4e436]:
               - text: Built by developers
-              - heading "Muse Dashboard for Ant Design" [level=5] [ref=f4e437]
+              - heading "Jo Dashboard for Ant Design" [level=5] [ref=f4e437]
               - generic [ref=f4e438]: From colors, cards, typography to complex elements, you will find the full documentation.
             - link [ref=f4e440] [cursor=pointer]:
               - /url: "#pablo"

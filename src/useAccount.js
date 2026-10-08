@@ -45,8 +45,12 @@ export function useAccount() {
   const { settings, entries } = state;
   const last = entries[entries.length - 1];
   const equity = last ? last.equity : settings?.initialBalance ?? 0;
+  const capital = last ? last.capital ?? last.equity : equity;
   const derived = settings && {
     equity,
+    capital,
+    floating: equity - capital, // open-trade P/L
+    returnPct: ((capital - settings.initialBalance) / settings.initialBalance) * 100, // realized return on starting capital
     pnl: equity - settings.initialBalance,
     tradedDays: entries.length,
     dailyLossUsed: last ? last.dailyLoss : 0,

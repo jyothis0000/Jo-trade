@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Alert, Button, Card, Col, Row, Select, Spin } from "antd";
 import { CheckOutlined, ReloadOutlined } from "@ant-design/icons";
-import { Link } from "react-router-dom";
-import ReactApexChart from "react-apexcharts";
+import Link from "next/link";
+import dynamic from "next/dynamic";
+const ReactApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 import { useAccount } from "../useAccount";
 
 const money = (n) =>
@@ -35,7 +36,7 @@ function Objective({ title, value, children, result }) {
   );
 }
 
-function Home() {
+export default function Home() {
   const [range, setRange] = useState("7");
   const { loading, error, settings: account, derived: d, reload } = useAccount();
 
@@ -47,7 +48,7 @@ function Home() {
           type={error ? "error" : "info"}
           showIcon
           message={error || "No account set up yet."}
-          description={<Link to="/data-entry">Go to Data Entry to add your account rules and daily equity.</Link>}
+          description={<Link href="/data-entry">Go to Data Entry to add your account rules and daily equity.</Link>}
         />
       </div>
     );
@@ -130,7 +131,10 @@ function Home() {
               <div className="kpi">{money(d.equity)}</div>
             </div>
             <div className="stat-row"><span className="label">Initial balance</span><b>{money(account.initialBalance)}</b></div>
+            <div className="stat-row"><span className="label">Capital (closed)</span><b>{money(d.capital)}</b></div>
             <div className="stat-row"><span className="label">Equity</span><b>{money(d.equity)}</b></div>
+            <div className="stat-row"><span className="label">Floating P/L</span><b className={d.floating >= 0 ? "pos" : "neg"}>{money(d.floating)}</b></div>
+            <div className="stat-row"><span className="label">Return on capital</span><b className={d.returnPct >= 0 ? "pos" : "neg"}>{d.returnPct.toFixed(2)}%</b></div>
             <div className="stat-row"><span className="label">Profit/Loss</span><b className={d.pnl >= 0 ? "pos" : "neg"}>{money(d.pnl)}</b></div>
           </Card>
         </Col>
@@ -139,4 +143,3 @@ function Home() {
   );
 }
 
-export default Home;

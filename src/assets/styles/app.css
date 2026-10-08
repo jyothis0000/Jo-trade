@@ -53,3 +53,36 @@ body { margin: 0; background: var(--bg); color: #e6e8ee; }
 .page .ant-table, .page .ant-table-tbody > tr > td, .page .ant-table-tbody > tr.ant-table-placeholder:hover > td { background: transparent; border-color: var(--line); }
 .page .ant-table-thead > tr > th { background: #1b2030; border-color: var(--line); }
 .page .ant-table-tbody > tr:hover > td { background: #1b2030; }
+
+/* layout: sticky sidebar on desktop, top bar + drawer on mobile */
+.app-sider.ant-layout-sider { position: sticky; top: 0; height: 100vh; }
+.mobile-bar { display: none; align-items: center; gap: 8px; height: 56px; padding: 0 12px; position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); font-weight: 600; color: #fff; }
+.mobile-bar .anticon { font-size: 20px; }
+.app-drawer .ant-drawer-content, .app-drawer .ant-drawer-body { background: var(--bg); }
+@media (max-width: 991px) {
+  .app-sider.ant-layout-sider { display: none; }
+  .mobile-bar { display: flex; }
+}
+
+/* data entry form */
+.entry-form .ant-form-item { margin-bottom: 16px; }
+.entry-form .ant-form-item-label > label { color: var(--muted); font-size: 13px; }
+.entry-form .ant-input-number, .entry-form .ant-picker { width: 100%; }
+.entry-form .ant-input-number-group-addon { background: #1b2030; border-color: var(--line); color: var(--muted); }
+.entry-form .ant-input-number, .entry-form .ant-picker { background: #12151d; border-color: var(--line); border-radius: 8px; }
+.entry-form .ant-input-number-group-wrapper .ant-input-number-group-addon:first-child { border-radius: 8px 0 0 8px; }
+.entry-form .ant-input-number-group-wrapper .ant-input-number { border-radius: 0 8px 8px 0; }
+.entry-hint { color: var(--muted); font-size: 12px; margin: -8px 0 16px; }
+.pos-cell { font-weight: 600; }
+
+@media (max-width: 576px) {
+  .page-head h1 { font-size: 20px; }
+  .kpi { font-size: 20px; }
+  .balance-box .kpi { font-size: 26px; }
+  .page .ant-card-body { padding: 16px; }
+}
+.entry-form .ant-input-number-group-wrapper { width: 100%; }
+.entry-form .ant-input-number-group { width: 100%; }
+.entry-form .ant-input-number-input { height: 38px; }
+.entry-form .ant-picker { height: 40px; }
+.entry-form .ant-input-number-group-addon { padding: 0 14px; }
